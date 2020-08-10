@@ -94,7 +94,7 @@ class _HistoryPageState extends State<HistoryPage> {
       onRefresh: onFresh,
       child: Scaffold(
         appBar: AppBar(
-          title: Text('List History'),
+          title: Text('History'),
           actions: <Widget>[
             Visibility(
               visible: listdata.isEmpty?false:true,

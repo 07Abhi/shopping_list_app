@@ -379,7 +379,7 @@ class _ItemFormPageState extends State<ItemFormPage> {
                 ],
               ),
               TextFormField(
-                //initialValue: _formfields['shopName'],
+
                 controller: textControllerShop,
                 focusNode: focusShop,
                 textCapitalization: TextCapitalization.words,
